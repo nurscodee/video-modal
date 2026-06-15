@@ -4,8 +4,7 @@ A clean, modern, and responsive landing page dedicated to coffee lovers. This pr
 
 ## 🚀 Live Demo
 
-_(Once you enable GitHub Pages, you can paste your live link here)_
-👉 [Live Demo Link](https://your-username.github.io/your-repository-name)
+👉 [Live Demo Link](https://nurscodee.github.io/video-modal/)
 
 ---
 
