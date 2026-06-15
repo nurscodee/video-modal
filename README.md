@@ -53,7 +53,7 @@ I realized that using special characters (like `&`) in folder names (e.g., `phot
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+   git clone [https://github.com/nurscodee/video-modal.git](https://github.com/nurscodee/video-modal.git)
    ```
 2. Open index.html in your favorite browser.
 
