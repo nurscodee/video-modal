@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-page">
+      <header>
+        <span
+          ><img src="./media/coffee-icon.svg" alt="icon" width="50" height="50"
+        /></span>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="container" id="home">
+        <div class="left-card">
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            officiis eligendi cumque impedit voluptatum quos nobis, distinctio
+            accusantium esse autem, qui, eveniet sit dolore quae labore.
+            Voluptatem magnam eveniet ex.
+          </p>
+          <button id="btn-video" class="btn">Show Video</button>
+        </div>
+        <div class="right-card">
+          <img src="./media/coffee-image.jpg" alt="coffee-image" />
+        </div>
+      </section>
+    </main>
+    <section class="modal" id="video-modal">
+      <div class="video-modal">
+        <button id="close" class="close">X</button>
+        <video controls>
+          <source src="./media/coffee-video2.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

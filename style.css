@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-color: beige;
+}
+.main-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+}
+ul {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: calc(100vh - 90px);
+}
+.container .left-card {
+  width: 60%;
+  padding: 15px;
+}
+.left-card p {
+  font-size: 32px;
+}
+.left-card button {
+  margin-top: 40px;
+  font-size: 24px;
+  border: none;
+  background: saddlebrown;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.right-card img {
+  width: 400px;
+  object-fit: cover;
+  height: 400px;
+}
+.modal {
+  display: none;
+}
+.video-modal {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.close {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 16px;
+  right: 24px;
+}
+video {
+  width: 900px;
+}
+.active {
+  display: block;
+}
+@media screen and (max-width: 415px) {
+  .container {
+    flex-direction: column;
+    position: static;
+  }
+  .container .left-card {
+    width: 100%;
+    padding: 32px;
+  }
+  .right-card {
+    display: none;
+  }
+  video {
+    width: 100%;
+  }
+}
